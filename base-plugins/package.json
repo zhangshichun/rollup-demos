@@ -1,0 +1,22 @@
+{
+  "name": "js-modules",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build-commonjs": "rollup --config ./commonjs/rollup.config.js",
+    "build-commonjs-no-plugin": "rollup --config ./commonjs/rollup-no-plugin.config.js",
+    "build-node-resolve": "rollup --config ./node-resolve/rollup.config.js",
+    "build-node-resolve-no-plugin": "rollup --config ./node-resolve/rollup-no-plugin.config.js"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "rollup": "^2.63.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.3"
+  }
+}
