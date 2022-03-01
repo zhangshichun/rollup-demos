@@ -8,4 +8,4 @@
 
 ## demo list
 1. [rollup构建产物验证demos](./js-modules/)
-2. [rollup常用插件验证demos](./base-plugins/)
+2. [rollup常用插件验证demos](./base-plugins/README.md)
