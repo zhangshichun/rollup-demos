@@ -9,7 +9,8 @@ export default {
   input: path.resolve(__dirname, './index.js'),     // 必须
   plugins: [
     inject({
-      _: 'lodash'
+      _: 'lodash',
+      jquery: "jquery"
     })
   ],
   output: [
@@ -18,4 +19,5 @@ export default {
       format: 'esm'
     },
   ],
+  external: ['lodash', 'jquery']
 };
